@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .header {
@@ -99,12 +99,7 @@ nav ul li a {
     text-shadow: 4px 4px 2px black;
 }
 
-/* .home-btn {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
 
-} */
 
 .home-content a {
     text-decoration: none;
@@ -442,4 +437,42 @@ nav ul li a {
     border-top: 1px solid var(--primary-color);
     padding-top: 20px;
 }
+
+
+/* GALLERY */
+
+
+
+
+
+.portraits,
+.nature,
+.wedding {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+
+.portraits-image-cards,
+.nature-image-cards,
+.wedding-image-cards {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px var(--secondary-color);
+}
+
+
+.portraits-image-cards img,
+.nature-image-cards img,
+.wedding-image-cards img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    
+}
+
 
