@@ -20,7 +20,7 @@ body {
 
 .header {
     display: flex;
-    background-color: var(--bg-color);
+    background-color: var(--secondary-color);
     justify-content: center;
     align-items: center;
 
@@ -30,7 +30,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
-    border-radius: 8px;
+    
     
 }
 nav ul {
@@ -53,11 +53,22 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    padding: 4px;
     font-size: 15px;
     color: var(--primary-color);
     font-weight: 800;
     
 }
+
+nav ul li a:hover {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 7px;
+    border-radius: 8px;
+    
+}
+
+
 
 /* MAIN CONTENT */
 .main-container {
@@ -132,6 +143,10 @@ nav ul li a {
     text-align: center;
     color: white;
     
+}
+
+.author-name {
+    color: var(--secondary-color);
 }
 
 .about-title {
