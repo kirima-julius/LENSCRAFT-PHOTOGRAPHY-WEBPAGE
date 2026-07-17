@@ -15,12 +15,12 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--secondary-color);
 }
 
 .header {
     display: flex;
-    background-color: var(--secondary-color);
+    background-color: var(--bg-color);
     justify-content: center;
     align-items: center;
 
@@ -59,7 +59,7 @@ nav ul li a {
 
 /* MAIN CONTENT */
 .main-container {
-    background-color: #071428;
+    background-color:var(--primary-color);
     width: 100%;
 }
 
@@ -125,7 +125,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 7px var(--secondary-color) solid;
+    
     border-radius: 8px;
     padding: 10px;
            
@@ -143,8 +143,8 @@ nav ul li a {
 }                    
 
 #about-image {
-    width: 160px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     border-radius: 50%;
     border: 3px solid var(--secondary-color);
     
@@ -169,3 +169,60 @@ nav ul li a {
 }
 
 
+/* WHY CHOOSE ME */
+
+#whychooseme {
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+.whychooseme {
+    text-align: center;
+    color: white;
+}
+
+.whychooseme-title {
+
+}
+
+.whychooseme-message {
+    
+}
+
+.whychooseme-cards-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    
+
+}
+
+.whychooseme-card {
+
+}
+
+.whychooseme-card figcaption{
+    font-size: 30px;
+    text-shadow: 2px 2px 2px var(--secondary-color);
+}
+
+.whychooseme-card-message {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.wcm-image {
+    width: 300px;
+    height: 200px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 8px;
+
+}
