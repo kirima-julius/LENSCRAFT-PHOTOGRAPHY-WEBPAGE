@@ -339,6 +339,7 @@ nav ul li a {
 .contact-title {
     margin: 0 auto;
     font-size: 50px;
+    color: white;
 }
 
 .contact-form {
@@ -384,3 +385,60 @@ nav ul li a {
     border: none;
     border-radius: 8px;
 }
+
+/* FOOTER */
+
+.footer-main {
+    min-height: 40vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 20px;
+    
+}
+
+.footer-nav-links .nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials-title {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-links a {
+   
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.copyrights {
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid var(--primary-color);
+    padding-top: 20px;
+}
+
