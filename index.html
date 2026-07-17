@@ -248,11 +248,11 @@
             <!-- CONTACT -->
 
             <section id="contact">
-                <h1 class="contact-tiitle">Let connect</h1>
+                <h1 class="contact-title">Let connect</h1>
 
                 <div class="contact-form">
 
-                    <label for="name">Name: <span class="mandatory">*</span></label>
+                    <label for="name" >Name: <span class="mandatory">*</span></label>
                     <input type="text" name="name" placeholder="Enter your name">
 
                     <label for="email">Email:<span class="mandatory">*</span></label>
@@ -262,7 +262,7 @@
                     <input type="text" name="country" placeholder="KE" readonly>
 
                     <label for="service_type">Service Type:</label>
-                    <select name="" id="">
+                    <select name="" id="contact-select">
                         <option value="">SELECT</option>
                         <option value="">FOR POTRAIT GALLERY</option>
                         <option value="">FOR WEDDING GALLERY</option>
@@ -273,7 +273,7 @@
                     <label for="date">Choose preferred date:</label>
                     <input type="datetime-local" name="date">
 
-                    <label for="message">Tell me about your photography needs:</label>
+                    <label for="message">Feedback:</label>
                     <textarea
                         name="message"
                         id="message"
@@ -282,7 +282,11 @@
                         cols="10">
                     </textarea>
 
-                    <button type="submit">Suubmit</button>
+                    <div class="contact-btn">
+                        <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    </div>
+                    
 
                 </div>
             </section>
