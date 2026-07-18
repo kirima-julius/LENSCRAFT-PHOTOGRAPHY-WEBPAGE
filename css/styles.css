@@ -177,6 +177,7 @@ nav ul li a:hover {
 .about-message {
     width: 900px;
     display: inline-block;
+    font-style: normal;
     margin: auto;
     line-height: 1.2;
     margin-top: 20px;
