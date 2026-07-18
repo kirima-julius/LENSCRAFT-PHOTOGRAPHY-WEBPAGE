@@ -425,7 +425,7 @@ nav ul li a:hover {
 
 .footer-main {
     min-height: 40vh;
-    background-color: aqua;
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
