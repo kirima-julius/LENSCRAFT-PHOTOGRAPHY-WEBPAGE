@@ -20,7 +20,7 @@ html{
 }
 
 body{
-    background:#071428;
+    background:whitesmoke;
     color:var(--text-color);
     font-family:Arial,Helvetica,sans-serif;
     line-height:1.7;
@@ -89,6 +89,7 @@ nav ul li a:hover,
     align-items:center;
     text-align:center;
     padding:40px;
+    margin-top: 25PX;
 }
 
 .home-content{
